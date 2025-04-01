@@ -69,7 +69,7 @@ int main() {
     distance_diff.push_back((A_v - D).norm() - (A_v - E).norm());
     distance_diff.push_back((A_v - D).norm() - (A_v - F).norm());
     distance_diff.push_back((A_v - E).norm() - (A_v - F).norm());
-
+    int idontknow = 2;
     // Начальная догадка
     Vector2d A(2, 2);
 
