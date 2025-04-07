@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MACHCREATOR\OneDrive\Desktop\vscode\TDOA_Project\TDOA_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MACHCREATOR\OneDrive\Desktop\vscode\TDOA_Project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8AAAD170-062C-3201-8EC7-66965B77C6AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

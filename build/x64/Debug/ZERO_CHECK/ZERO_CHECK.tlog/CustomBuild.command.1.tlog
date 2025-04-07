@@ -1,0 +1,10 @@
+^C:\USERS\MACHCREATOR\ONEDRIVE\DESKTOP\VSCODE\TDOA_PROJECT\BUILD\CMAKEFILES\5E8DA43096F294019F78697415B3DEFB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MACHCREATOR/OneDrive/Desktop/vscode/TDOA_Project -BC:/Users/MACHCREATOR/OneDrive/Desktop/vscode/TDOA_Project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/MACHCREATOR/OneDrive/Desktop/vscode/TDOA_Project/build/TDOA_PROJECT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
